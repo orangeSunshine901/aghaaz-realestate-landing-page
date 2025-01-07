@@ -1,0 +1,79 @@
+:root {
+  font-family: "Roboto Flex", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #d5d8dd;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+  --drk-blue: #030c33;
+  --turq: #099eca;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 500;
+  color: var(--drk-blue);
+  font-size: 61px;
+  line-height: 70.2px;
+  letter-spacing: -1%;
+  width: 516px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48.83px;
+  font-weight: 400;
+  color: #030c33;
+  line-height: 55.2px;
+}
+
+h4 {
+  font-size: 31.25px;
+  font-weight: 300;
+  color: #030c33;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -1%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #030c33;
+  font-weight: 400;
+}
+
+.eyebrow {
+  color: var(--turq);
+  font-size: 20px;
+  letter-spacing: -1%;
+}

@@ -1,0 +1,55 @@
+.aboutUs-container {
+  padding-left: 42px;
+  margin-top: 60px;
+  padding-top: 192px;
+  position: relative;
+  margin-bottom: 433px;
+}
+
+h2 {
+  max-width: 600px;
+  margin-top: 16px;
+}
+
+p {
+  width: 600px;
+  margin-top: 32px;
+  padding-right: 20px;
+}
+
+p:last-child {
+  margin-top: 16px;
+}
+
+.aghaazMap {
+  position: absolute;
+  top: 140px;
+  left: 28%;
+  width: 894px;
+  transform: rotate(0deg); /* Default rotation */
+  transition: transform 0.3s ease; /* Smooth rotation */
+}
+
+@media (min-width: 1500px) {
+  .aghaazMap {
+    transform: rotate(0deg);
+  }
+}
+
+@media (min-width: 1800px) {
+  .aghaazMap {
+    transform: rotate(15deg);
+    left: 35%;
+    top: 40px;
+    width: 1094px;
+  }
+  .aboutUs-container {
+    margin-bottom: 533px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .aghaazMap {
+    transform: rotate(20deg); /* Maximum rotation */
+  }
+}
