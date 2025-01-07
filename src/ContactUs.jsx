@@ -19,7 +19,7 @@ export default function ContactUs() {
           </label>
 
           <label>
-            I am Intersted In<input></input>
+            I am intersted in<input></input>
           </label>
 
           <label>
@@ -32,4 +32,3 @@ export default function ContactUs() {
     </div>
   );
 }
-``;

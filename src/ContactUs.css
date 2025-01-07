@@ -4,6 +4,7 @@
   flex-direction: row;
   align-items: center;
   width: 100%;
+  margin-bottom: 80px;
 }
 
 .contact-image {
@@ -31,6 +32,8 @@
 
 .form-container h2 {
   color: #d5d8dd;
+  padding-right: 20px;
+  margin-top: 0;
 }
 
 form {
@@ -40,6 +43,7 @@ form {
   column-gap: 13px;
   row-gap: 13px;
   flex-direction: row;
+  margin-top: 16px;
 }
 
 label {
@@ -54,6 +58,7 @@ input {
   border: none;
   border-radius: 6px;
   width: 100%;
+  margin-top: 8px;
 }
 
 label:nth-of-type(3) {
@@ -74,5 +79,5 @@ form button {
   border: none;
   background-color: #099eca;
   border-radius: 6px;
-  margin-top: 49px;
+  margin-top: 16px;
 }

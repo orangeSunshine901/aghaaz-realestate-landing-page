@@ -44,11 +44,11 @@ h2 {
 }
 
 .property-cards {
-  width: 60%;
   display: flex;
   flex-wrap: nowrap;
   row-gap: 24px;
   justify-content: space-between;
+  width: 60%;
 }
 
 @media (min-width: 1100px) {
@@ -59,9 +59,10 @@ h2 {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
   .property-cards {
     width: 60%;
     justify-content: space-between;
+    flex-wrap: nowrap;
   }
 }
