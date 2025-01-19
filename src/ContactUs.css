@@ -59,6 +59,7 @@ input {
   border-radius: 6px;
   width: 100%;
   margin-top: 8px;
+  padding-inline: 8px;
 }
 
 label:nth-of-type(3) {
