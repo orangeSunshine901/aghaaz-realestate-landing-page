@@ -4,6 +4,7 @@
   padding-top: 192px;
   position: relative;
   margin-bottom: 433px;
+  display: block;
 }
 
 h2 {
@@ -30,9 +31,82 @@ p:last-child {
   transition: transform 0.3s ease; /* Smooth rotation */
 }
 
+@media (min-width: 300px) {
+  .aboutUs-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    margin-top: 80px;
+    padding-top: 0px;
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  .aghaazMap {
+    position: relative;
+    top: 24px;
+    left: 40px;
+    width: 80%;
+  }
+
+  h2 {
+    max-width: fit-content;
+    margin-top: 16px;
+  }
+
+  p {
+    width: fit-content;
+    margin-top: 32px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .aboutUs-container {
+    padding-left: 42px;
+    margin-top: 60px;
+    padding-top: 192px;
+    position: relative;
+    margin-bottom: 456px;
+    display: block;
+  }
+  .aghaazMap {
+    top: 240px;
+    width: 35%;
+    left: 64%;
+    position: absolute;
+  }
+
+  h2 {
+    max-width: 600px;
+    margin-top: 16px;
+  }
+
+  p {
+    width: 600px;
+    margin-top: 32px;
+    padding-right: 20px;
+  }
+
+  p:last-child {
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .aghaazMap {
+    top: 140px;
+    left: 28%;
+    width: 894px;
+  }
+}
+
 @media (min-width: 1500px) {
   .aghaazMap {
     transform: rotate(0deg);
+    top: 140px;
+    left: 28%;
+    width: 894px;
   }
 }
 

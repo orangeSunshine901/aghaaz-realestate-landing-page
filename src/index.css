@@ -34,46 +34,95 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-weight: 500;
-  color: var(--drk-blue);
-  font-size: 61px;
-  line-height: 70.2px;
-  letter-spacing: -1%;
-  width: 516px;
-  text-align: center;
+@media (min-width: 300px) {
+  h1 {
+    font-weight: 500;
+    color: var(--drk-blue);
+    font-size: 32px;
+    line-height: calc(32px * 1.2);
+    letter-spacing: -1%;
+    width: 516px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 29px;
+    font-weight: 400;
+    color: #030c33;
+    line-height: calc(29px * 1.2);
+  }
+
+  h4 {
+    font-size: 22.78px;
+    font-weight: 300;
+    color: #030c33;
+    font-weight: 400;
+  }
+
+  h6 {
+    font-size: 18px;
+    line-height: calc(18px * 1.2);
+    letter-spacing: -1%;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: calc(16px * 1.5);
+    letter-spacing: 0;
+    color: #030c33;
+    font-weight: 400;
+  }
+
+  .eyebrow {
+    color: var(--turq);
+    font-size: 18px;
+    letter-spacing: -1%;
+    line-height: calc(18px * 1.2);
+  }
 }
 
-h2 {
-  font-size: 48.83px;
-  font-weight: 400;
-  color: #030c33;
-  line-height: 55.2px;
-}
+@media (min-width: 800px) {
+  h1 {
+    font-weight: 500;
+    color: var(--drk-blue);
+    font-size: 61px;
+    line-height: 70.2px;
+    letter-spacing: -1%;
+    width: 516px;
+    text-align: center;
+  }
 
-h4 {
-  font-size: 31.25px;
-  font-weight: 300;
-  color: #030c33;
-  font-weight: 400;
-}
+  h2 {
+    font-size: 48.83px;
+    font-weight: 400;
+    color: #030c33;
+    line-height: 55.2px;
+  }
 
-h6 {
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: -1%;
-}
+  h4 {
+    font-size: 31.25px;
+    font-weight: 300;
+    color: #030c33;
+    font-weight: 400;
+  }
 
-p {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #030c33;
-  font-weight: 400;
-}
+  h6 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -1%;
+  }
 
-.eyebrow {
-  color: var(--turq);
-  font-size: 20px;
-  letter-spacing: -1%;
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #030c33;
+    font-weight: 400;
+  }
+
+  .eyebrow {
+    color: var(--turq);
+    font-size: 20px;
+    letter-spacing: -1%;
+  }
 }

@@ -5,7 +5,7 @@ export default function Card() {
   return (
     <div>
       <div className="card">
-        <div>
+        <div className="card-img-container">
           <img className="card-img" src={propImg} alt="" />
         </div>
         <div className="card-details">

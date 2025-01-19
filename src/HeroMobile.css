@@ -1,0 +1,135 @@
+.mobile-logo {
+  width: 60px;
+}
+
+.mobile-main-container {
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 10px;
+  row-gap: 24px;
+}
+
+.mobile-hero-text {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 16px;
+}
+
+.mobile-hero-text .eyebrow {
+  margin-bottom: 8px;
+}
+
+.mobile-hero-text h1 {
+  width: 80%;
+}
+
+.mobile-hero-image {
+  width: 95vw;
+  height: 300px;
+}
+
+.mobile-hero-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: right top;
+  border-radius: 8px;
+}
+
+.hero-prop-details {
+  position: relative;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 103px;
+  left: 0px;
+}
+
+.hero-prop-details p {
+  margin-top: 16px;
+  padding-right: 16px;
+  color: #d5d8dd;
+  background-color: rgba(3, 12, 51, 0.6);
+  padding-inline: 10px;
+  border-radius: 0px 0px 0px 8px;
+  backdrop-filter: blur(2px);
+  padding-block: 8px;
+}
+
+.hero-prop-details p:last-child {
+  border-radius: 0px 0px 8px 0px;
+}
+
+.mobile-btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-inline: 8px;
+  align-items: flex-end;
+}
+
+.mobile-contact-btn {
+  width: 112px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #030c33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  cursor: pointer;
+}
+
+.mobile-contact-btn img {
+  width: 24px;
+  object-fit: contain;
+}
+
+.mobile-contact-btn span {
+  font-size: 12px;
+  font-weight: 400;
+  width: fit-content;
+}
+
+.mobile-catalog-download div {
+  display: flex;
+  height: 60px;
+  width: 136px;
+  background-color: #030c33;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mobile-catalog-download span {
+  width: min-content;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.mobile-catalog-download img {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  z-index: 1;
+  object-fit: contain;
+}
+
+@media (min-width: 300px) {
+  .mobile-main-container {
+    display: flex;
+  }
+}
+
+@media (min-width: 800px) {
+  .mobile-main-container {
+    display: none;
+  }
+}
